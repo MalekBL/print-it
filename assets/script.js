@@ -16,3 +16,10 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+const arrowLeft = document.querySelector(".arrow_left")
+const banner = document.querySelector(".banner-img")
+arrowLeft.addEventListener("click", showPreviousImage)
+function showPreviousImage() {
+	banner.src="./assets/images/slideshow/slide2.jpg"
+	
+}
